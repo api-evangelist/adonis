@@ -1,0 +1,37 @@
+generated: '2026-07-18'
+method: searched
+source: https://auth.adonis.io/
+hosts:
+- host: https://auth.adonis.io
+  documents:
+  - path: /.well-known/openid-configuration
+    status: 200
+    file: adonis-openid-configuration.json
+  - path: /.well-known/oauth-authorization-server
+    status: 200
+    file: adonis-oauth-authorization-server.json
+- host: https://adonis.io
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+- host: https://api.adonis.io
+  documents:
+  - path: /
+    status: 200
+    note: health endpoint returns {"status":"healthy"}
+  - path: /.well-known/openid-configuration
+    status: 401
+  - path: /.well-known/security.txt
+    status: 401
+notes: >-
+  Adonis authenticates via Auth0 (issuer https://auth.adonis.io/). The API host
+  api.adonis.io is live but auth-gated. The marketing site (adonis.io) publishes
+  no .well-known discovery surface.

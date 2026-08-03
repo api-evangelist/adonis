@@ -1,0 +1,76 @@
+generated: '2026-07-18'
+method: searched
+source: https://auth.adonis.io/.well-known/openid-configuration
+docs: https://adonis.io/platform
+schemes:
+- name: OpenIDConnect
+  source: well-known/adonis-openid-configuration.json
+  issuer: https://auth.adonis.io/
+  flows:
+  - flow: authorizationCode
+    authorizationUrl: https://auth.adonis.io/authorize
+    tokenUrl: https://auth.adonis.io/oauth/token
+  - flow: clientCredentials
+    tokenUrl: https://auth.adonis.io/oauth/token
+scopes:
+- scope: openid
+  description: Request an OpenID Connect ID token for authentication.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: profile
+  description: Access the end user's default profile claims.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: offline_access
+  description: Issue a refresh token for long-lived access.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: name
+  description: Access the end user's name.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: given_name
+  description: Access the end user's given (first) name.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: family_name
+  description: Access the end user's family (last) name.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: nickname
+  description: Access the end user's nickname.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: email
+  description: Access the end user's email address.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: email_verified
+  description: Access the end user's email verification status.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: picture
+  description: Access the end user's profile picture.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: created_at
+  description: Access the timestamp the end user's account was created.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: identities
+  description: Access the end user's linked identity providers.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: phone
+  description: Access the end user's phone number.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+- scope: address
+  description: Access the end user's address.
+  flows: [authorizationCode]
+  sources: [well-known/adonis-openid-configuration.json]
+notes: >-
+  Scopes are the standard OpenID Connect / Auth0 identity scopes advertised in
+  the discovery document's scopes_supported. Adonis application- and
+  resource-specific API scopes (RCM, eligibility, claims) are provisioned per
+  Auth0 API/audience and are not published in the public discovery document.

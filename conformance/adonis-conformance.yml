@@ -1,0 +1,33 @@
+generated: '2026-07-18'
+method: searched
+source: https://adonis.io/privacy-and-security
+standards:
+- id: oauth2
+  conforms: true
+  evidence: >-
+    auth.adonis.io publishes an RFC 8414 OAuth 2.0 Authorization Server Metadata
+    document with authorization, token, revocation, and JWKS endpoints.
+- id: oidc
+  conforms: true
+  evidence: >-
+    auth.adonis.io publishes an OpenID Connect discovery document
+    (/.well-known/openid-configuration) with issuer, userinfo, and jwks_uri.
+- id: hipaa
+  conforms: true
+  evidence: >-
+    HIPAA compliance is stated on adonis.io/privacy-and-security; data is
+    encrypted in transit and at rest with regular audits and penetration
+    testing.
+- id: soc2
+  conforms: false
+  evidence: >-
+    An AICPA badge (the SOC body) appears on the security page, but no SOC 2
+    report or attestation is explicitly published; not asserted.
+- id: rfc9457-problem-details
+  conforms: false
+  evidence: No public OpenAPI or error reference available to confirm.
+- id: fhir-r4
+  conforms: false
+  evidence: >-
+    Adonis integrates with EHR systems but does not publicly document a FHIR
+    interface.

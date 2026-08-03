@@ -1,0 +1,32 @@
+# Adonis
+
+> Adonis is a healthcare Revenue Cycle Management (RCM) technology company that helps healthcare providers maximize revenue and reduce the cost and time of collections through an AI orchestration platform, real-time patient eligibility and benefits verification, denial prevention, and claims and payment automation. Founded in 2022, headquartered in New York, and backed by General Catalyst.
+
+## APIs
+
+- [Adonis Platform](https://adonis.io/platform): RCM platform including patient eligibility/benefits verification, patient and appointment data retrieval, claims, and payment workflows. API base: https://api.adonis.io (OAuth 2.0 / OIDC via Auth0, auth-gated).
+
+## Authentication
+
+- [Authentication profile](authentication/adonis-authentication.yml): OAuth 2.0 and OpenID Connect via Auth0 (issuer https://auth.adonis.io/); authorization_code, client_credentials, refresh_token, device_code, and token-exchange grants.
+- [OAuth scopes](scopes/adonis-scopes.yml): Standard OIDC/Auth0 identity scopes.
+- [OpenID configuration](well-known/adonis-openid-configuration.json)
+- [OAuth authorization server metadata](well-known/adonis-oauth-authorization-server.json)
+
+## Security & Compliance
+
+- [Privacy & Security](https://adonis.io/privacy-and-security): HIPAA compliance; encryption in transit and at rest; regular audits and penetration testing.
+- [Privacy Policy](https://adonis.io/privacy-policy)
+- [Conformance](conformance/adonis-conformance.yml)
+- [Domain security probe](security/adonis-domain-security.yml)
+
+## Docs
+
+- [Platform](https://adonis.io/platform)
+- [AI Agents](https://adonis.io/platform/adonis-ai-agents)
+- [Intelligence](https://adonis.io/platform/intelligence)
+- [Orchestration](https://adonis.io/platform/orchestration)
+- [Partners & Integrations](https://adonis.io/company/partners-integrations)
+- [Blog](https://adonis.io/blog)
+- [Contact / Support](https://adonis.io/contact-us)
+- [Log in](https://app.adonis.io/)
