@@ -47,7 +47,7 @@ accessModel:
 specificationVersion: '0.23'
 image: https://adonis.io/favicon.ico
 created: '2026-07-17'
-modified: '2026-07-18'
+modified: '2026-10-06'
 tags:
 - Company
 - Healthcare
@@ -86,6 +86,10 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- url: https://adonis.io/resources
+  type: Blog
+- url: https://adonis.io/resources/rss.xml
+  type: BlogRSS
 - type: Website
   url: https://adonis.io/
 - type: DeveloperPortal
