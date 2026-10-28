@@ -64,6 +64,95 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Adonis is a company surfaced as a portfolio company of general-catalyst and added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a lead awaiting the enrichment pipeline.
+Adonis is a healthcare Revenue Cycle Management (RCM) technology company that helps physician groups, hospitals, health systems, digital health organizations, and practice management services maximize revenue and reduce the cost and time of collections. Founded in 2022 and headquartered at 3 World Trade Center in New York, Adonis pairs an AI orchestration platform (Adonis AI Agents, Adonis Intelligence, and Adonis Orchestration) with real-time patient eligibility and benefits verification, denial prevention, claims and payment automation, and revenue analytics. The platform integrates with electronic health record and practice management systems including Epic, athenahealth, eClinicalWorks, AdvancedMD, NextGen, DrChrono, Canvas, Healthie, Office Ally, Change Healthcare, and Availity, and exposes API access (for example Patient Verification) for building patient onboarding and intake experiences. Adonis is a General Catalyst portfolio company and has raised over $95M across Series A through Series C from General Catalyst, Quadrille Capital, Bling Capital, Max Ventures, and Homebrew.
 
-Source: portfolio company of [general-catalyst](https://github.com/api-evangelist/general-catalyst)
+**Areas:** Company · Healthcare · Revenue Cycle Management · RCM · Medical Billing · Health IT · Eligibility Verification · Claims · Payments · Artificial Intelligence · Automation
+
+## Adonis on APIs.io
+
+Everything profiled for Adonis is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/adonis/](https://apis.io/providers/adonis/)** — or go straight to one of the APIs or properties below.
+
+### APIs (1)
+
+- [Adonis API](https://apis.io/apis/adonis/adonis-api/) — Adonis platform API for revenue cycle management, including real-time patient eligibility and benefits verification, patient and appointment data retrieval…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Adonis Authentication](https://apis.io/security/adonis/adonis-authentication/)
+- [Adonis Domain Security](https://apis.io/security/adonis/adonis-domain-security/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Adonis Scopes](https://apis.io/scopes/adonis/adonis-scopes/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://adonis.io/)
+- [Sign up](https://app.adonis.io/)
+- [Support](https://adonis.io/contact-us)
+- [Blog](https://adonis.io/resources)
+- [Compliance](https://adonis.io/privacy-and-security)
+- [Privacy policy](https://adonis.io/privacy-policy)
+
+## API Evangelist rating
+
+**Kin Score 21.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 73.2 |
+| Contract quality | 0.0 |
+| Contract governance | 18.2 |
+| Operational transparency | 0.0 |
+| Developer ergonomics | 28.6 |
+| Access clarity | 18.4 |
+
+**Agent readiness 15.1** — agent-aware
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+
+**Regulatory alignment 31.6** — Health
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adonis/](https://apis.io/providers/adonis/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Adonis: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/adonis/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
