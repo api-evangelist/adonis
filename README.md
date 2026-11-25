@@ -66,7 +66,7 @@
 
 Adonis is a healthcare Revenue Cycle Management (RCM) technology company that helps physician groups, hospitals, health systems, digital health organizations, and practice management services maximize revenue and reduce the cost and time of collections. Founded in 2022 and headquartered at 3 World Trade Center in New York, Adonis pairs an AI orchestration platform (Adonis AI Agents, Adonis Intelligence, and Adonis Orchestration) with real-time patient eligibility and benefits verification, denial prevention, claims and payment automation, and revenue analytics. The platform integrates with electronic health record and practice management systems including Epic, athenahealth, eClinicalWorks, AdvancedMD, NextGen, DrChrono, Canvas, Healthie, Office Ally, Change Healthcare, and Availity, and exposes API access (for example Patient Verification) for building patient onboarding and intake experiences. Adonis is a General Catalyst portfolio company and has raised over $95M across Series A through Series C from General Catalyst, Quadrille Capital, Bling Capital, Max Ventures, and Homebrew.
 
-**Areas:** Company · Healthcare · Revenue Cycle Management · RCM · Medical Billing · Health IT · Eligibility Verification · Claims · Payments · Artificial Intelligence · Automation
+**Areas:** Company · Healthcare · Revenue Cycle Management · Medical Billing · Health IT · Eligibility Verification · Claims · Payments · Artificial Intelligence · Automation
 
 ## Adonis on APIs.io
 
@@ -106,7 +106,7 @@ Links to the company's own pages. This repository publishes no copy of their spe
 
 ## API Evangelist rating
 
-**Kin Score 21.8** — emerging · rubric 0.24.0 · scored 2026-10-17
+**Kin Score 21.3** — emerging · rubric 0.28.1 · scored 2026-11-21
 
 | Facet | Score |
 |---|---|
@@ -115,9 +115,9 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Contract governance | 18.2 |
 | Operational transparency | 0.0 |
 | Developer ergonomics | 28.6 |
-| Access clarity | 18.4 |
+| Access clarity | 19.1 |
 
-**Agent readiness 15.1** — agent-aware
+**Agent readiness 14.8** — agent-aware
 
 | Agent-readiness dimension | Result |
 |---|---|
@@ -140,8 +140,14 @@ Links to the company's own pages. This repository publishes no copy of their spe
 | Protected Resource Metadata | — |
 | Dynamic Client Registration | yes |
 | Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | na |
+| MCP Tool Quality | na |
+| Onboarding Descriptor | — |
+| Dns Aid Index | na |
+| Markdown Negotiation | na |
 
-**Regulatory alignment 31.6** — Health
+**Regulatory alignment 27.2** — Health
 
 The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/adonis/](https://apis.io/providers/adonis/).
 
